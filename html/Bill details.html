@@ -1,0 +1,117 @@
+<html>
+    <head>
+        <title>Checkout Card</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1"> 
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/all.css">
+    </head>
+        <body>
+            <div class="row">
+             <div class="col-75">
+              <div class="container"> 
+               <form  action="#" onsubmit="return validation()">   
+               <div class="row">
+                <div class="col-50">
+                  <h3>Billing address</h3>
+
+                    <label for="fname"><i class="fas fa-user">&nbsp;</i>Full name</label>
+                    <input type="text" id="fname" name="firstName" placeholder="Parth Patel">
+                    <span id="username" class="error"></span>
+
+                    <label for="email"><i class="fa fa-envelope">&nbsp;</i>Email</label>
+                    <input type="text" id="email" name="email" placeholder="parthpatel@gmail.com">
+                    <span id="email address" class="error"></span>
+
+                    
+                    <label for="PhoneNumber"><i class="fas fa-phone-alt">&nbsp;</i>PhoneNumber</label>
+                    <input type="text" id="PhoneNumber" name="PhoneNumber" placeholder="9876543210" >
+                    <span id="Number" class="error"></span>
+ 
+                    
+                    <label for="address"><i class="fas fa-house-user">&nbsp;</i>Address</label>
+                    <input type="text" id="address" name="Address" placeholder="Itm">
+                    <span id="HomeAddress" class="error"></span>
+
+                    
+                    <label for="city"><i class="fas fa-city">&nbsp;</i>City</label>
+                    <input type="text" id="city" name="City" placeholder="Vadodara">
+                    <span id="cityName" class="error"></span>
+
+                    
+                     <div class="row">
+                      <div class="col-50">
+                        <label for="state">State</label>
+                        <input type="temp" id="state" name="State" placeholder="Gujarat">
+                        <span id="StateName" class="error"></span>
+
+                      </div>
+                    
+                      <div class="col-50">
+                          <label for="Pin code">Pin code</label>
+                          <input type="temp" id="pinCode" name="Pin code" placeholder="123456">
+                          <span id="pin" class="error"></span>
+
+                      </div>
+                     </div>  
+                </div> 
+                    
+                <div class="col-50">
+                        <h3>Payment</h3>
+                        <label for="fname">Accpected cards</label>
+                        <div class="icon-container">
+                            <i class="fab fa-cc-visa" style="color:navy;"></i>
+                            <i class="fab fa-cc-mastercard" style="color:red;"></i>  
+                        </div>
+                        <label for="cname">Name on card</label> 
+                        <input type="text" id="cname" name="cardname" placeholder="Parth Patel">
+                        <span id="nameCard" class="error"></span>
+
+                 
+                        <label for="cnum">credit card number</label>
+                        <input type="text" id="cnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+                        <span id="numberCard" class="error"></span>
+
+
+                        <label for="expmonth">Exp month</label>
+                        <input type="text" id="expmonth" name="expiryMonth" placeholder="june">
+                        <span id="monthExp" class="error"></span>
+
+
+                        <div class="row">
+                           <div class="col-50">
+                               <label for="expyear">Exp year</label>
+                               <input type="temp" id="expyear" name="expyear" placeholder="2021">
+                               <span id="yearExp" class="error"></span>
+
+                        <label>
+                            <input type="checkbox" checked="checked" name="sameAddress">Cash on delivery
+                        </label>
+                           </div>
+                           <div class="col-50">
+                               <label for="cvv">CVV</label>
+                               <input type="temp" id="cvv" name="CVV" placeholder="123">
+                               <span id="cardPin" class="error"></span>
+                           </div>
+                        </div>
+                       </div>
+                      </div>
+                        <input type="submit" value="place Order" class="btn" >
+               </form>
+                      </div>
+                     </div>
+                     <div class="col-25">
+                        <div class="container">
+                            <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>Price</b></span></h4>
+                            <p><a href="https://www.booksluva.com/product/advanced-java-programming/" target="_blank">Java</a> <span class="price">₹297</span></p>
+                            <p><a href="https://www.booksluva.com/product/operating-system/" target="_blank">OS</a> <span class="price">₹308</span></p>
+                            <p><a href="https://www.booksluva.com/product/iot-its-applications/" target="_blank">Iot</a> <span class="price">₹144</span></p>
+                            <p><a href="https://www.booksluva.com/product/python-for-data-structure/" target="_blank">Python</a> <span class="price">₹112</span></p>
+                            <hr>
+                            <p>Total <span class="price" style="color:black"><b>₹861</b></span></p>
+                        </div>
+                    </div>
+                 </div>  
+
+               <script src="../js/Validation.js"> </script>  
+        </body>
+</html>
