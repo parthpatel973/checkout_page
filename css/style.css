@@ -1,7 +1,8 @@
 body{
-    font-family: Arial;
+    font-family: 'Roboto', sans-serif;
     font-size: 17px;
     padding: 8px;
+    font-weight: 100px;
 }
 *{
     box-sizing: border-box;
@@ -44,16 +45,25 @@ input[type=text] {
     width: 100%;
     margin-bottom: 20px;
     padding: 12px;
-    border: 1px solid rgb(130, 26, 26);
+    border: 1px solid rgb(217,176,140);
     border-radius: 1px;
+}
+.information{
+    resize: vertical;
+    height: 100px;
+    width: 455px;
+    margin-left: 5px;
+    border: 1px solid rgb(217,176,140);
+    ;
 }
 input[type=temp] {
     width: 103%;
     margin-bottom: 20px;
     padding: 12px;
-    border: 1px solid rgb(130, 26, 26);
+    border: 1px solid rgb(217,176,140);
     border-radius: 1px;
 }
+
 label {
     margin-bottom: 10px;
     display: block;
@@ -64,7 +74,7 @@ label {
     font-size: 24px;
 }
 .btn {
-    background-color: #33ca25;
+    background-color: #116466;
     color: white;
     padding: 12px;
     margin: 10px 0;
@@ -76,10 +86,10 @@ label {
     box-shadow: 0 0 1rem 0 rgba(99, 123, 150, 0.329);
 }
 .btn:hover {
-    background-color: #388009;
+    background-color: #3D9193;
 }
 hr {
-    border: 1px solid rgb(184, 61, 61);
+    border: 1px solid rgb(217,176,140);
 }
 span.price {
     float: right;

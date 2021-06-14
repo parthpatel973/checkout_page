@@ -2,6 +2,8 @@
     <head>
         <title>Checkout Card</title>
      <meta name="viewport" content="width=device-width, initial-scale=1"> 
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../css/style.css">
         <link rel="stylesheet" href="../css/all.css">
     </head>
@@ -50,10 +52,13 @@
                           <label for="Pin code">Pin code</label>
                           <input type="temp" id="pinCode" name="Pin code" placeholder="123456">
                           <span id="pin" class="error"></span>
-
                       </div>
-                     </div>  
-                </div> 
+
+                      <label for="Additional Information">&nbsp;&nbsp;<i class="fas fa-info">&nbsp;</i>Additional Information</label>
+                      <textarea type="text" class="information" name="Info" placeholder="provide Any suggestion about your order" ></textarea> 
+
+                    </div>  
+                    </div> 
                     
                 <div class="col-50">
                         <h3>Payment</h3>
@@ -84,7 +89,7 @@
                                <span id="yearExp" class="error"></span>
 
                         <label>
-                            <input type="checkbox" checked="checked" name="sameAddress">Cash on delivery
+                            <input type="checkbox"  name="sameAddress">Cash on delivery
                         </label>
                            </div>
                            <div class="col-50">
@@ -95,7 +100,7 @@
                         </div>
                        </div>
                       </div>
-                        <input type="submit" value="place Order" class="btn" >
+                        <input type="submit" value="Place Order" class="btn" >
                </form>
                       </div>
                      </div>
